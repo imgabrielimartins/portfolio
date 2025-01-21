@@ -1,0 +1,102 @@
+body {
+    background-color: #ffacd4;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.perfil {
+    border-radius: 200px;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    background-color: #c6186c;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.navbar {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffacd4;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: #c6186c;
+    color: white;
+    border: 1px solid;
+}
+
+#sobre{
+   text-align: center;
+   padding: 10px;
+}
+
+#skills{
+    text-align: center;
+    padding: 10px;
+}
+
+#contato{
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    background-color: #c6186c;
+    color: white;
+}
+
+#contato a{
+    text-decoration: none;
+    color: white;
+}
+
+#contato a:hover{
+   color: black;
+   background-color: #ffacd4;
+   border-radius: 1px;
+   border: 1px 1px 1px 1px solid #c6186c;
+   padding: 10px;
+}
+
+footer{
+    background-color: #ffacd4;
+    text-align: center;
+    color: black;
+}
+
+/* Modo Escuro */
+
+ body.dark-mode { 
+    background-color: #121212; 
+    color: #e0e0e0; 
+} 
+
+header.dark-mode { 
+    background: #1f1f1f; 
+} 
+
+footer.dark-mode { 
+    background: #1f1f1f; 
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%; 
+    max-width: 100%; 
+}
